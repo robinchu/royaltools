@@ -80,7 +80,10 @@
   <header>
     <h1 class="logo">Welcome to Beego</h1>
 	<h2 > Area: {{.area}} </h2>
-	<h2> Config: {{.config}} </h2>
+	<h2> Url test: {{.url_test}} </h2>
+  <h2> Url qa: {{.url_qa}} </h2>
+  <h2> Username: {{.username}} </h2>
+  <h2> Password: {{.password}} </h2>
     <div class="description">
       Beego is a simple & powerful Go web framework which is inspired by tornado and sinatra.
     </div>
